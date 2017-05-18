@@ -1,4 +1,4 @@
-class Comment < Neo4j::Migrations::Base
+class CommentIndexes < Neo4j::Migrations::Base
   def up
     add_constraint :Comment, :uuid
   end

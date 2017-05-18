@@ -1,4 +1,4 @@
-class User < Neo4j::Migrations::Base
+class UserIndexes < Neo4j::Migrations::Base
   def up
     add_constraint :User, :uuid
   end

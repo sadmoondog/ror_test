@@ -1,4 +1,4 @@
-class Rating < Neo4j::Migrations::Base
+class RatingIndexes < Neo4j::Migrations::Base
   def up
     add_constraint :Rating, :uuid
   end

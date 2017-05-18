@@ -1,4 +1,4 @@
-class Movie < Neo4j::Migrations::Base
+class MovieIndexes < Neo4j::Migrations::Base
   def up
     add_constraint :Movie, :uuid
   end
